@@ -2,6 +2,7 @@
 ## Public Defects since 2013 - 2020
 
 Statistics of HackerOne BugBounty:
+https://hackerone.com/hacktivity
 This was last updated as of the **13th July 2020**
 
 ## Import the SQL file
