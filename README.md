@@ -9,4 +9,4 @@ This was last updated as of the **13th July 2020**
 
 ```mysql -u username -p database_name < hacktivity_BugsHackerOne.sql```
 
-[Graph HackerOne ](graphs/HackerOne_Defects_Found.png)
+![Graph HackerOne ](graphs/HackerOne_Defects_Found.png)
