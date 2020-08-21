@@ -21,7 +21,7 @@ class TestHackCheck():
   def setup_method(self, method):
     my_settings = Options()  
     my_settings.add_argument("--headless")  
-    self.driver = webdriver.Chrome(executable_path='/Users/keithreilly/Documents/GitHub/hacktivity/collectData/chromedriver',chrome_options=my_settings)
+    self.driver = webdriver.Chrome(executable_path='chromedriver',chrome_options=my_settings)
     self.vars = {}
   
   def teardown_method(self, method):
@@ -37,7 +37,7 @@ class TestHackCheck():
     #Now grab the data that is needed from the report 
 
     # Open the file with read only permit
-    f = open('All_Data')
+    f = open('hackerone_records')
 
     # open file to write to
     fw = open("DataFile1.txt", "a")
