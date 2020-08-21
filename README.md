@@ -1,10 +1,9 @@
-## Hacktivity
+# HackerOne Defects
+## Public Defects since 2013
 
 Statistics of HackerOne BugBounty:
+This was last updated as of the **13th July 2020**
 
-* **Live data as bugs are found/closed/disclosed** 
-* **History of public findings**
-* **Analysis of defect types found**
-
-
-Currently this is a work in progress, I aim to add more bug bounty platforms in the future. 
+## Import the SQL file
+[hacktivity_BugsHackerOne.sql](sqlDump/hacktivity_BugsHackerOne.sql)
+```mysql -u username -p database_name < hacktivity_BugsHackerOne.sql```
